@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+     <style>
+        html, body {
+                height: 100%;
+                margin: 0;
+            }
+
+            .row {
+                height: 100%;
+                display: flex;
+            }
+
+            .col-2 {
+                background-color: #343a40;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .col-10 {
+                padding: 20px;
+
+    </style>
+  </head>
+  <body>
+
+  <div class="row">
+
+    <div class="col-2 bg-dark text-white">
+
+      <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/dashboard_36dp_GREEN.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <b>Меню</b>
+          </a>
+        </div>
+      </nav>
+
+      <div class="d-flex flex-column align-items-start">
+      <button type="submit" class="btn btn-dark align-items-center">
+        <img src="img/home_24dp_WHITE.png" alt="Главная" width="24" height="24">
+        <a href="home.html">Главная</a>
+        </button><br>
+        </div>
+      <div class="d-flex flex-column align-items-start">
+      <button type="submit" class="btn btn-dark d-flex align-items-center">
+        <img src="img/category_24dp_WHITE.png" alt="Категория" width="24" height="24">
+        <a href="category.html">Категории</a>
+      </button><br><br>
+        </div>
+      <div class="d-flex flex-column align-items-start">
+      <button type="submit" class="btn btn-dark d-flex align-items-center">
+        <img src="img/receipt_long_24dp_WHITE.png" alt="Заказы" width="24" height="24">
+        <a href="orders.html">Заказы</a>
+        </button><br><br>
+        </div>
+      <div class="d-flex flex-column align-items-start">
+      <button type="submit" class="btn btn-dark d-flex align-items-center">
+        <img src="img/account_circle_24dp_WHITE.png" alt="Контакты" width="24" height="24">
+        <a href="contacts.html">Контакты</a>
+        </button><br><br>
+        </div>
+
+      <div class="dropdown">
+      <img src="img/manage_accounts_36dp_YELLOW.png" alt="Пользователь" width="36" height="36">
+        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+          Пользователь
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+          <li><a class="dropdown-item active" href="#">Профиль</a></li>
+          <li><a class="dropdown-item" href="#">Выход</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-10 mt-5">
+     <h1 style="text-align:center;">Каталог</h1>
+      <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="Картинка" width="200" height="150">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card
+                    title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Добавить в заказ</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="Картинка" width="200" height="150">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card
+                    title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Добавить в заказ</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="Картинка" width="200" height="150">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card
+                    title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Добавить в заказ</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="Картинка" width="200" height="150">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card
+                    title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Добавить в заказ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
